@@ -6,7 +6,7 @@ import socket
 print('hellocheckpoint')
 # Connect to Redis
 redis = Redis(host="redis", db=0, socket_connect_timeout=2, socket_timeout=2)
-
+print('hema is rocking')
 app = Flask(__name__)
 print('hema is rocking')
 print(socket.gethostname())
